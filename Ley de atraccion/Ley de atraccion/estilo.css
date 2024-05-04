@@ -1,0 +1,104 @@
+.titulo-etiqueta{
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    
+}
+.titulo, .boton{
+    display: inline-block;
+
+
+}
+body{
+    background-color: #0d999ed8;
+}
+header{
+    background-color:coral;
+    display: flex;
+
+}
+p, li{
+    color: white;
+    font-family: "Manrope", sans-serif;
+
+}
+hr {
+    border-color: black;
+}
+.contenedor1{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+.texto {
+    width: auto;
+    display: block;
+    margin: 1.5%;
+
+}
+table, td, tr{
+    border: 1px solid black;
+}
+thead {
+    background-color: coral;
+    font-family: "Manrope", sans-serif;
+    font-style: italic;
+
+}
+h1 {
+    font-family: "Oswald", sans-serif;
+}
+h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+}
+span{
+    background-color: coral;
+    text-decoration-style: solid;
+    text-decoration: underline;
+}
+button{
+    border-style: groove;
+    background-color: khaki;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    border: 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0d999ed8;
+}
+#listadelinks{
+    list-style-type: disclosure-closed;
+    
+
+}
+h4{
+    font-family: "Manrope", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.palabra{
+    background-color: goldenrod;
+    font-family: "Oswald", sans-serif;
+
+}
+.definicion{
+    font-family: "Manrope", sans-serif;
+    background-color: white;
+
+}
+#foto{
+    width: 400px;
+    height: 400px;
+   
+
+}
